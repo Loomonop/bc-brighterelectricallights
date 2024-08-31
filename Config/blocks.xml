@@ -1,11 +1,7 @@
 <configs>
-    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='Light']">
+    <append xpath="/blocks/block[@name='ceilingLight01_player']">
         <property name="Light" value="1"/>
-    </set>
-    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='TintColor']">
         <property name="TintColor" value="FFD180"/>
-    </set>
-    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='LODCullScale']">
         <property name="LODCullScale" value="1"/>
-    </set>
+    </append>
 </configs>
