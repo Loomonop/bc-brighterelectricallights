@@ -1,10 +1,21 @@
 <configs>
-    <!-- Update Light Intensity -->
-    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='Light']/@value">1</set>
-
-    <!-- Update Light Color to 4000K -->
+    <!-- Update Light Intensity, Color, and LOD Cull Scale for Ceiling Light 01 -->
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='Light']/@value">1.2</set>
     <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='TintColor']/@value">FFD180</set>
-
-    <!-- Update LOD Cull Scale -->
     <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='LODCullScale']/@value">1</set>
+
+    <!-- Update Light Intensity, Color, and LOD Cull Scale for Industrial Light 01 -->
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='Light']/@value">1.2</set>
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='TintColor']/@value">FFD180</set>
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='LODCullScale']/@value">1</set>
+
+    <!-- Update Light Intensity, Color, and LOD Cull Scale for Industrial Light 02 -->
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='Light']/@value">1.2</set>
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='TintColor']/@value">FFD180</set>
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='LODCullScale']/@value">1</set>
+
+    <!-- Update Light Intensity, Color, and LOD Cull Scale for Ceiling Light 07 -->
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='Light']/@value">1.2</set>
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='TintColor']/@value">FFD180</set>
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='LODCullScale']/@value">1</set>
 </configs>
