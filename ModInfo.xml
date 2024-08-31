@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="bc-brighterelectriclights" />
+	<DisplayName value="BC - Brighter Electric Lights" />
+	<Description value="A simple mod to increase the lux of the current player placed electrical lights to actually not feel like shit" />
+	<Author value="Bruce Cock" />
+	<Version value="1.0.1" /> <!-- GAME.GAME.MOD -->
+	<Website value="https://github.com/Loomonop/bc-brighterelectricallights/tree/main/BC%20-%20Brighter%20Electric%20Lights" />
+</xml>
