@@ -1,7 +1,10 @@
 <configs>
-    <append xpath="/blocks/block[@name='ceilingLight01_player']">
-        <property name="Light" value="1"/>
-        <property name="TintColor" value="FFD180"/>
-        <property name="LODCullScale" value="1"/>
-    </append>
+    <!-- Update Light Intensity -->
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='Light']/@value">1</set>
+
+    <!-- Update Light Color to 4000K -->
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='TintColor']/@value">FFD180</set>
+
+    <!-- Update LOD Cull Scale -->
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='LODCullScale']/@value">1</set>
 </configs>
