@@ -1,0 +1,26 @@
+<configs>
+	<append xpath="/blocks">
+		<!-- basic light bulb -->
+		<block name="ceilingLight01_player">
+			<property name="Extends" value="lightPorchWhite" param1="Place"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="PoweredLight"/>
+			<property name="Light" value="1"/>
+			<property name="TintColor" value="FFD180"/>
+			<property name="LODCullScale" value="1"/>
+			<property name="UnlockedBy" value="craftingElectrician"/>
+			<property name="CustomIcon" value="lightCeilingBulbMountWhite"/>
+			<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Model" value="Entities/Lighting/lightCeilingBulbMountPrefab"/>
+			<property name="HandleFace" value="Top"/>
+			<property name="TraderStageTemplate" value="electricTier1"/><!-- ceilingLight01_player -->
+			<property name="RuntimeSwitch" value="true"/>
+			<property name="TakeDelay" value="5"/>
+			<property name="SortOrder1" value="B202"/>
+			<property name="SortOrder2" value="2901"/>
+			<property name="Tags" value="electricianSkill"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_electrical"/>
+		</block>
+	</append>
+</configs>
