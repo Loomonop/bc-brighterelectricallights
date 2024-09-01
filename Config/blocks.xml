@@ -1,21 +1,69 @@
 <configs>
     <!-- Update Light Intensity, Color, and LOD Cull Scale for Ceiling Light 01 -->
+    <remove xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='Extends']"/>
     <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='Light']/@value">1.2</set>
     <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='TintColor']/@value">FFD180</set>
     <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='LODCullScale']/@value">1</set>
+    <!-- Add inherited properties -->
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='Class']/@value">PoweredLight</set>
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='IndexName']/@value">POILight</set>
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='CustomIconTint']/@value">ABABA4</set>
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='Material']/@value">Mmetal</set>
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='Model']/@value">Entities/Lighting/lightCeilingBulbMountPrefab</set>
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='HandleFace']/@value">Top</set>
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='ImposterDontBlock']/@value">true</set>
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='WaterFlow']/@value">permitted</set>
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='Collide']/@value">movement,melee,bullet,arrow,rocket</set>
+    <set xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='StabilitySupport']/@value">false</set>
 
     <!-- Update Light Intensity, Color, and LOD Cull Scale for Industrial Light 01 -->
+    <remove xpath="/blocks/block[@name='industrialLight01_player']/property[@name='Extends']"/>
     <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='Light']/@value">1.2</set>
     <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='TintColor']/@value">FFD180</set>
     <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='LODCullScale']/@value">1</set>
+    <!-- Add inherited properties -->
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='Class']/@value">PoweredLight</set>
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='IndexName']/@value">POILight</set>
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='CustomIconTint']/@value">ABABA4</set>
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='Material']/@value">Mmetal</set>
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='Model']/@value">Entities/Electrical/lightWallPrefab</set>
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='HandleFace']/@value">South</set>
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='ImposterDontBlock']/@value">true</set>
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='WaterFlow']/@value">permitted</set>
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='Collide']/@value">movement,melee,bullet,arrow,rocket</set>
+    <set xpath="/blocks/block[@name='industrialLight01_player']/property[@name='StabilitySupport']/@value">false</set>
 
     <!-- Update Light Intensity, Color, and LOD Cull Scale for Industrial Light 02 -->
+    <remove xpath="/blocks/block[@name='industrialLight02_player']/property[@name='Extends']"/>
     <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='Light']/@value">1.2</set>
     <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='TintColor']/@value">FFD180</set>
     <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='LODCullScale']/@value">1</set>
+    <!-- Add inherited properties -->
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='Class']/@value">PoweredLight</set>
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='IndexName']/@value">POILight</set>
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='CustomIconTint']/@value">ABABA4</set>
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='Material']/@value">Mmetal</set>
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='Model']/@value">Entities/Electrical/lightIndustrialPrefab</set>
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='HandleFace']/@value">Bottom</set>
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='ImposterDontBlock']/@value">true</set>
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='WaterFlow']/@value">permitted</set>
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='Collide']/@value">movement,melee,bullet,arrow,rocket</set>
+    <set xpath="/blocks/block[@name='industrialLight02_player']/property[@name='StabilitySupport']/@value">false</set>
 
     <!-- Update Light Intensity, Color, and LOD Cull Scale for Ceiling Light 07 -->
+    <remove xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='Extends']"/>
     <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='Light']/@value">1.2</set>
     <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='TintColor']/@value">FFD180</set>
     <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='LODCullScale']/@value">1</set>
+    <!-- Add inherited properties -->
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='Class']/@value">PoweredLight</set>
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='IndexName']/@value">POILight</set>
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='CustomIconTint']/@value">ABABA4</set>
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='Material']/@value">Mmetal</set>
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='Model']/@value">Entities/Electrical/lightCeiling2PlayerPrefab</set>
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='HandleFace']/@value">Top</set>
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='ImposterDontBlock']/@value">true</set>
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='WaterFlow']/@value">permitted</set>
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='Collide']/@value">movement,melee,bullet,arrow,rocket</set>
+    <set xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='StabilitySupport']/@value">false</set>
 </configs>
